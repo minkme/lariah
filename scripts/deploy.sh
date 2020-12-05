@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY=/home/ec2-user/app/step2
-PROJECT_NAME=lairah
+PROJECT_NAME=lariah
 
 echo "> Build 파일 복"
 
@@ -24,7 +24,7 @@ fi
 
 echo "> 새로 배포"
 
-JAR_NAME=$(ls -tr $REPOSITORY/ | grep jar | tail -n 1)
+JAR_NAME=$(ls -tr $REPOSITORY/*.jar | tail -n 1)
 
 echo "> JAR NAME: $JAR_NAME"
 
