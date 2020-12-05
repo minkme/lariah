@@ -5,7 +5,7 @@ PROJECT_NAME=lariah
 
 echo "> Build 파일 복"
 
-cd $REPOSITORY/zip/*.jar $REPOSITORY/
+cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
 
 echo " > 구동중인 pid 확인"
